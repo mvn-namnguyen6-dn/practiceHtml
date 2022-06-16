@@ -1,0 +1,166 @@
+
+ article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    float: left;
+    }
+    
+
+ /* menu */
+
+/*clear hết định dạng margin padding của thẻ ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*xét chiều rộng cho thẻ li*/
+li{
+    width: 150px;
+}
+/*CSS cho thẻ ul*/
+.menu ul{
+    height: 40px; /*xét chiều cao = 40xp*/
+    list-style: none; /*clear style của thẻ ul*/
+  /*xét background*/
+}
+.menu > ul > li{
+    display: inline-block; /*định dạng sắp xếp theo chiều ngang*/
+    border-right: 1px solid #dddddd; /*xét border*/
+}
+ul li:last-child{
+    border-right: none; /*clear border cho thẻ li cuối cùng*/
+}
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    list-style: none;
+
+}
+li{
+    width: 150px;
+    text-align: center; 
+}
+.menu > ul{
+    height: 40px;
+}
+.menu > ul > li{
+    display: inline-block;
+    border-right: 1px solid #dddddd;
+    position: relative;
+}
+.menu > ul > li > ul {
+    position: absolute;
+    top: 29px;
+}
+.menu > ul > li > ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid #dddddd;
+}
+ul li:last-child{
+    border: none;
+}
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    list-style: none;
+    
+}
+li{
+    width: 150px;
+    text-align: center; 
+}
+.menu > ul{
+    height: 40px;
+}
+.menu > ul > li{
+    display: inline-block;
+    border-right: 1px solid #dddddd;
+    position: relative;
+}
+.menu > ul > li > ul {
+    display: none; /*thêm*/
+    position: absolute;
+    top: 15px;
+}
+.menu > ul > li > ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid #dddddd;
+}
+ul li:last-child{
+    border: none;
+}
+/*thêm*/
+.menu ul li:hover ul{
+    display: block;
+}
+
+/* background */
+.banner {
+    /* The image used */
+    
+    background-image:
+    linear-gradient(to top right, rgba(228,221,221, 0.50) 10%, rgba(214, 205, 151, 0.8) 60%),
+    url(image/chibihibic.jpeg);
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+  }
+  .banner-welcome{
+    padding-top:80px;
+  }
+
+  /* footer */
+  .footer{
+    padding: 10px;
+  }
+  .banner-button{
+    width: fit-content;
+    padding: 0.5em 1em;
+    text-align: center;
+    float: inherit;
+    margin: 0em auto;
+    color: #ffffff;
+    background: #00000026;
+    border-radius:5px;
+  }
+  .banner-button:hover{
+    background: #c6cc6b !important;
+    color: rgb(15, 15, 14) !important;
+    border-radius:5px;
+  }
+  /* table */
+  td, th{
+    border: 1px solid;
+  }
+  .table-index{
+    border-collapse: collapse;
+  }
+
+
+  header{
+    padding: 1em;
+    color: white;
+    background-color: rgb(149, 208, 235);
+    clear: left;
+    text-align: center;
+
+  } 
+  footer {
+    padding: 1em;
+    color: rgb(7, 3, 3);
+    background-color: rgb(149, 208, 235);
+    clear: left;
+    text-align: center;
+    }

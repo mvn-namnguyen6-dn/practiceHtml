@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HoangNam</title>
+<link rel="stylesheet" href="./style.css"/>
+
+<style type="text/css">
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li>
+                    <a href="#">Lập Trình</a>
+                    <ul>
+                        <li><a href="#">Lập trình web</a></li>
+                        <li><a href="#">Lập trình Mobile</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Database</a>
+                    <ul>
+                        <li><a href="#">MySql</a></li>
+                        <li><a href="#">MsSql</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </header>
+    <main style="padding:0px;">
+        <!-- banner -->
+        <div class="banner">
+            <div   class="banner-welcome">
+                <center>
+              <h1>Welcome to the site</h1>
+              <h5>Sign up for free today</h5>
+              <button class="banner-button">Get started</button>
+                </center>
+            </div>  
+          </div>
+          
+        <!-- <nav>
+            <h1> Hello</h1>
+        </nav> -->
+        <article class="article-index">
+            <section>
+                <h2> Danh ngôn</h2>
+                <p>At <time>10:00</time> </p>
+                <p> Tôi đã học được tìm kiếm hạnh phúc bằng cách giới hạn những ham muốn của mình, hơn là tìm cách thỏa mãn chúng. -<a href="https://en.wikipedia.org/wiki/John_Stuart_Mill"> John Stuart Mill </a></p>
+            </section>
+            <section>
+                <h2>IMAGE</h2>
+                <h4>chibi cute</h4>
+                <p>Chờ gì nữa em ơi, <strong>mùa hạ</strong> đã sang rồi</p>
+                <p>Nếu em <span style="color:	#d31985 ;">đau buồn</span> thế, sao chưa về bên tôi?</p>
+                <img src="https://img5.thuthuatphanmem.vn/uploads/2021/12/28/hinh-chibi-cute-de-ve-hinh-chibi-dep-don-gian-de-ve_091614761.jpg">
+            </section>
+            <section>
+                <h2> VIDEO</h2>
+                <address>
+                    <p>nam.nguyen</p>
+                    <p>Diachi: Da nang</p>
+                </address>
+                <p><i>Bình yên là lúc biển lặng gió</i></p>
+                <p><i>Hạnh phúc là lúc anh có được em</i></p>
+                    <video width="400" controls>
+                    <source src="image/video.mp4" type="video/mp4">
+                    </video>
+  
+            </section>
+
+            <section>
+                <h3> Thính</h3>
+                <p>anh làm lead : <i>tay cầm chỉ việc</i></p>
+                <p> em là vợ  : <i>chỉ việc cầm tay anh</i></p>
+                <p>
+                    <span style="color:red;">
+                        @beatthathinh
+                    </span>
+                </p>
+            </section>
+                <iframe width="500px" height="400px" src="https://monstar-lab.com/global/" title="monstar-lab">
+                </iframe>
+              
+            </section>
+            <section>
+                 <h1>Table</h1>
+                 <table class="table-index">
+                    <tr>
+                      <th>Firstname</th>
+                      <th>Lastname</th>
+                    </tr>
+                    <tr>
+                      <td>Nam</td>
+                      <td>Nguyen</td>
+                    </tr>
+                    <tr>
+                      <td>Thuong</td>
+                      <td>Mai</td>
+                    </tr>
+                  </table>
+            </section>
+            <section>
+
+                <h3>Contact Form</h3>
+
+                <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" name="firstname" placeholder="Your name.."><br>
+
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" name="lastname" placeholder="Your last name.."><br>
+                    <label>Gender:</label>
+                    <section name="Gender">
+                        <label>Male</label>
+                        <input type="radio" id="male" name="gender" value="male">&nbsp;&nbsp;
+                        <label>Female</label>
+                        <input type="radio" id="female" name="gender" value="female">&nbsp;&nbsp;
+                        <label>Other</label>
+                        <input type="radio" id="other" name="gender" value="other">&nbsp;&nbsp;
+                    </section>
+
+                    <label for="skill">skill:</label>
+                    &nbsp;&nbsp;
+                    <select id="skill" name="skill">
+                    <option value="PHP">PHP</option>
+                    <option value="Nodejs">Nodejs</option>
+                    <option value="java">java</option>
+                    </select><br>
+
+                    <label for="subject">Subject:</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </article>
+        <aside class="aside-index">
+                <form action="">
+                <div class="container-login"> 
+                    <h1>Login</h1>
+                    <input type="email" placeholder="email"/><br><br>
+                    <input type="password" placeholder="password"/><br> <br>
+                    <input type="submit" placeholder="submit">
+
+                </div>
+                </form>            
+                <form action="">
+                <div class="container-register">
+                    <h1>Register</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+
+                    <label for="email"><b>Email</b></label></br>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required> </br>
+
+
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    <hr>
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                    <button type="submit" class="registerbtn">Register</button>
+                </div>
+
+                <div class="container signin">
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+  </form>
+        </aside>
+
+    </main>
+    <footer class="footer">
+           <p><b> Nguyen Duc Hoang Nam</b></p>
+           <p><b> nam.nguyen6@monstar-lab.com</b></p>
+           <p><b> 0833405209</b></p>
+    </footer>
+</body>
+</html>
+
