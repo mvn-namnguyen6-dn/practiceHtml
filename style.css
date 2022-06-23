@@ -49,3 +49,13 @@ body {
     background-image: url("image/helooelooh.jpeg");
     background-color: #cccccc;
   }
+  footer>p{
+    margin-left: 10px;
+
+  }
+  footer{
+    background-color: yellowgreen;
+    width: 100%;
+  }
+
+  
